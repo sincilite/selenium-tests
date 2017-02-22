@@ -2,6 +2,6 @@ language: python
 python:
   - "3.6.0"
 install:
-  - pip install selenium --use-mirrors
+  - pip install selenium
 script:
   - python -m unittest discover
