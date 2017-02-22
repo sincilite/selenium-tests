@@ -11,6 +11,8 @@ class Base(unittest.TestCase):
         return ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(size))
 
     def setUp(self):
+        """Test
+        """
         #self.driver = webdriver.Firefox()
         self.driver = webdriver.PhantomJS()
 
