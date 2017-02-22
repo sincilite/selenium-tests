@@ -12,6 +12,6 @@ class Login(Base):
 
     """
 
-    username = "demo_user22"
+    username = "demo_user"
 
     password = "demoadmin"
