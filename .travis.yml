@@ -7,3 +7,7 @@ install:
     - pip install selenium pyyaml
 script:
     - python -m unittest discover
+branches:
+  only:
+    - master
+    - /^release-.*$/
