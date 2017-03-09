@@ -33,8 +33,8 @@ class Base(unittest.TestCase):
 
     def setUp(self):
         self.loadConfig()
-        self.driver = webdriver.Firefox()
-        #self.driver = webdriver.PhantomJS()
+        #self.driver = webdriver.Firefox()
+        self.driver = webdriver.PhantomJS()
 
     def tearDown(self):
         self.driver.quit()
