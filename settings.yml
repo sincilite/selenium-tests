@@ -15,3 +15,10 @@ uat :
         password: "demoadmin"
         incorrect_username: "example"
         incorrect_password: "876543"
+production:
+    domain: "http://rdm.zaxity.io"
+    credentials:
+        username: "demo_user"
+        password: "demoadmin"
+        incorrect_username: "example"
+        incorrect_password: "876543"
