@@ -1,7 +1,9 @@
 language: python
 python:
-  - "3.6.0"
+    - "3.6.0"
+env:
+    - APPLICATION_ENV=production
 install:
-  - pip install selenium
+    - pip install selenium pyyaml
 script:
-  - python -m unittest discover
+    - python -m unittest discover

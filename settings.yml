@@ -1,0 +1,17 @@
+global:
+    somesetting: True
+
+development:
+    domain: "http://rdm.zaxity.io"
+    credentials:
+        username: "demo_user"
+        password: "demoadmin"
+        incorrect_username: "example"
+        incorrect_password: "876543"
+uat :
+    domain: "http://ec2-52-212-152-82.eu-west-1.compute.amazonaws.com"
+    credentials:
+        username: "demo_user"
+        password: "demoadmin"
+        incorrect_username: "example"
+        incorrect_password: "876543"
